@@ -11,6 +11,7 @@ background-color: #000000;
 display: flex;
 justify-content: center;
 padding-top:30px;
+
 } 
 
 div p strong {
@@ -18,7 +19,7 @@ display: block;
 text-align: center;
 font-family: inherit;
 color: white;
-font-size: 30px;
+font-size: 25px;
 padding: 10px 180px;
 }
 
@@ -27,16 +28,53 @@ b{
 }
 
 .section3Video {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding: 20px;
+}
+   
+.video {
+border: 1px solid #fafa00;
+border-radius: 5px;
+}
+
+.text2 {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.text2 p strong{
+font-size: large;
+}
+.text2 img {
+margin-left: 360px;
+width: 500px;
+height: 200px;  
+}
+
+.buttonSection{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  
-  .video {
-    border: 1px solid #fafa00;
-    border-radius: 5px;
-  }
+}
+
+.button {
+    align-items:center;
+    text-align: center;
+    background-image: linear-gradient(to left, #fafa00, white );
+    border: #fafa00;
+    color: #000000;
+    border-radius: 7px;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px;
+    cursor: pointer; 
+}
+
+.footer h6{
+color: #9f9c9c;
+}
+
