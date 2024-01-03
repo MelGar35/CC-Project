@@ -4,14 +4,13 @@ padding: 0;
 }
   
 body {
-background-color: #000000;
+background-color: #161616;
 }
 
 .headerLogo{
 display: flex;
 justify-content: center;
 padding-top:30px;
-
 } 
 
 div p strong {
@@ -59,6 +58,9 @@ height: 200px;
 .buttonSection{
     display: flex;
     justify-content: center;
+    padding: 20px;
+    
+
 }
 
 .button {
@@ -74,7 +76,22 @@ height: 200px;
     cursor: pointer; 
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fafa00; 
+    padding: 10px;
+}
+
+.imgFooter{
+   padding: 10px 20px;
+}
+
 .footer h6{
 color: #9f9c9c;
 }
+
 
