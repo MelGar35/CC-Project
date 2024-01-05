@@ -44,6 +44,7 @@ border-radius: 5px;
 display: flex;
 justify-content: center;
 flex-direction: column;
+
 }
 
 .text2 p strong{
@@ -86,6 +87,7 @@ height: 200px;
     width: 100%;
     border-top: 1px solid #dfdf47; 
     padding: 10px;
+    
 }
 
 .imgFooter{
