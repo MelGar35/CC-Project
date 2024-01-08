@@ -58,6 +58,7 @@ background-image: linear-gradient(to left, #fafa00, white );
 border: #fafa00;
 color: #000000;
 font-size: large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 border-radius: 7px;
 padding: 15px;
 font-weight: 500;
@@ -95,7 +96,18 @@ width: 400px;
 height: 260px;
 }
 
-.text {
+div h1 strong {
+display: flex;
+flex-direction:column;
+text-align: center;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: white;
+font-size: 15px;
+padding: 10px 40px;
+}
 
+.imgFooter img {
+width: 120px;
+height: 80px;
 }
 }
