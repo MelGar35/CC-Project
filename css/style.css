@@ -7,23 +7,27 @@ body {
 background-color: #161616;
 }
 
+.header{
+background-color: #000000;
+}
+
 .headerLogo{
 display: flex;
 justify-content: center;
-padding-top:30px;
+padding:20px;
 } 
 
-div p strong {
+div h1 strong {
 display: block;
 text-align: center;
-font-family: inherit;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: white;
-font-size: 25px;
+font-size: 34px;
 padding: 10px 180px;
 }
 
 b{
-    color: #fafa00;
+color: #fafa00;
 }
 
 .section3Video {
@@ -36,62 +40,45 @@ padding: 10px;
 }
    
 .video {
-border: 1px solid #dfdf47;
+border: 1px solid #979755;
 border-radius: 5px;
 }
 
-.text2 {
-display: flex;
-justify-content: center;
-flex-direction: column;
-
-}
-
-.text2 p strong{
-font-size: large;
-}
-.text2 img {
-margin-left: 360px;
-width: 500px;
-height: 200px;  
-}
 
 .buttonSection{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
-
+display: flex;
+justify-content: center;
+padding: 20px;    
 }
 
 .button {
-    align-items:center;
-    text-align: center;
-    background-image: linear-gradient(to left, #fafa00, white );
-    border: #fafa00;
-    color: #000000;
-    border-radius: 7px;
-    font-size: large;
-    font-weight: 500;
-    padding: 15px;
-    cursor: pointer; 
-    list-style: none;
-    text-decoration: none;
+align-items:center;
+text-align: center;
+background-image: linear-gradient(to left, #fafa00, white );
+border: #fafa00;
+color: #000000;
+font-size: large;
+border-radius: 7px;
+padding: 15px;
+font-weight: 500;
+list-style: none;
+cursor: pointer; 
+text-decoration: none;
 }
 
 .footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    border-top: 1px solid #dfdf47; 
-    padding: 10px;
-    
+display: flex;
+background-color: #000000;
+align-items: center;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+padding: 10px;
+border-top: 1px solid #b6b63b;     
 }
 
 .imgFooter{
-   padding: 10px 20px;
+padding: 20px;
 }
 
 .footer h6{
@@ -99,3 +86,16 @@ color: #9f9c9c;
 }
 
 
+@media (max-width: 500px) {
+
+
+
+.video{
+width: 400px;
+height: 260px;
+}
+
+.text {
+
+}
+}
